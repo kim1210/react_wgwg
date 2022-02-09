@@ -1,0 +1,11 @@
+@value mediaQuery: 62rem;
+
+@value font-large: 48px;
+@value font-medium: 28px;
+@value font-regular: 18px;
+@value font-small: 16px;
+@value font-micro: 14px;
+
+@value weight-bold: 700;
+@value weight-semi-bold: 600;
+@value weight-regular: 400;

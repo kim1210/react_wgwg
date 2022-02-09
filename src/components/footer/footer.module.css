@@ -1,0 +1,17 @@
+@value makerDarkPurple, makerWhite from '../../common/colors.css';
+
+.container {
+  background-color: makerDarkPurple;
+  height: 10rem;
+  position: relative;
+  transform: translateY(-100%);
+  text-align: center;
+}
+
+.title {
+  color: makerWhite;
+}
+
+.rights {
+  color: makerWhite;
+}

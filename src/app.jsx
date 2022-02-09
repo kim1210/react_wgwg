@@ -1,8 +1,25 @@
-import './app.css';
+import styles from "./app.module.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <h1>Hello :)</h1>
+    <div className={styles.app}>
+      <BrowserRouter>
+        <Header />
+        <div className={styles.wrapper}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          repudiandae, amet at rem quam dolor ducimus assumenda, voluptates
+          tempore quos totam et natus ipsam cum ab obcaecati culpa minima omnis.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+          distinctio, laborum ipsa esse, alias ea possimus consectetur similique
+          dolore vel nemo officia maxime. Quidem accusantium mollitia corporis
+          in aperiam nisi.lorem
+        </div>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 
