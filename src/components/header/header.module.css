@@ -2,42 +2,53 @@
 @value font-medium, weight-semi-bold from '../../common/size.css';
 
 .header {
-    position: fixed;
-    width : 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: makerDarkPurple;
-    color : makerWhite;
-    padding : 16px;
+  position: fixed;
+  width: 100%;
+  background-color: makerDarkPurple;
+  color: makerWhite;
+  padding: 16px;
+  z-index: 1;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    font-size : font-medium;
-    font-weight : weight-semi-bold;
+  display: flex;
+  align-items: center;
+  font-size: font-medium;
+  font-weight: weight-semi-bold;
+  cursor: pointer;
 }
 
 .logo:hover {
-    transform: scale(1.03);
-    transition : all 300ms ease;
+  transform: scale(1.03);
+  transition: all 300ms ease;
 }
 
 .logoImg {
-    height: 50px;
+  height: 50px;
+}
+
+.logoText {
+  color: makerWhite;
 }
 
 .button {
-    padding: 8px 12px;
-    margin: 0 4px;
-    cursor: pointer;
-    border: 1px solid makerWhite;
-    border-radius: 4px;
-    color : makerWhite;
+  padding: 8px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+  border: 1px solid makerWhite;
+  border-radius: 4px;
+  color: makerWhite;
 }
 
 .button:hover {
-    transform: scale(1.03);
-    transition : all 300ms ease;
+  transform: scale(1.03);
+  transition: all 300ms ease;
 }

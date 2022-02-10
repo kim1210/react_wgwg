@@ -1,0 +1,5 @@
+@value makerDarkPurple from '../../common/colors.css';
+
+.title {
+  color: makerDarkPurple;
+}

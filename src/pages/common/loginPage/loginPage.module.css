@@ -1,0 +1,48 @@
+@value makerWhite, makerLightGrey, makerGrey, makerDarkPurple, makerPurple, makerOrange from '../../../common/colors.css';
+
+@value font-micro from '../../../common/size.css';
+
+.wrapper {
+  width: 50%;
+  height: auto;
+  padding: 10rem;
+  margin: auto;
+}
+
+.formbox {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.button {
+  width: 90%;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: makerWhite;
+  cursor: pointer;
+  border: 1px solid makerGrey;
+  border-radius: 4px;
+  background-color: makerPurple;
+}
+
+.button:disabled {
+  color: makerGrey;
+  background-color: makerLightGrey;
+  cursor: not-allowed;
+}
+
+.message {
+  font-size: font-micro;
+  position: absolute;
+  bottom: -1.2rem;
+  left: 0;
+}
+
+.success {
+  color: makerGrey;
+}
+
+.error {
+  color: makerOrange;
+}
